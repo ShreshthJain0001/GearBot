@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/GearBot/static/css/main.b1de9152.css",
+    "main.js": "/GearBot/static/js/main.ea357aea.js",
+    "static/js/453.2146d86e.chunk.js": "/GearBot/static/js/453.2146d86e.chunk.js",
+    "static/media/porche.png": "/GearBot/static/media/porche.979bf78fef95f6745f42.png",
+    "static/media/maseratilogo.png": "/GearBot/static/media/maseratilogo.52e65ef0ea1b05d20873.png",
+    "static/media/bentley.png": "/GearBot/static/media/bentley.81b78bb3912bd55594b5.png",
+    "static/media/rolls royce.png": "/GearBot/static/media/rolls royce.072b34a40621194990d0.png",
+    "static/media/rollsroyceprivatejet.jpg": "/GearBot/static/media/rollsroyceprivatejet.bdbbf7bcd1e4ce522ae4.jpg",
+    "static/media/mercedeslogo.png": "/GearBot/static/media/mercedeslogo.5f97d7df17f85d942f51.png",
+    "static/media/indexcarposter.png": "/GearBot/static/media/indexcarposter.cdb5bfedf6570f194363.png",
+    "static/media/tire-image.png": "/GearBot/static/media/tire-image.96767ce266bff69ee45d.png",
+    "static/media/car-icon.png": "/GearBot/static/media/car-icon.e17a3a51cda65defb9c4.png",
+    "static/media/road.jpg": "/GearBot/static/media/road.ba916a825127d0f2842b.jpg",
+    "index.html": "/GearBot/index.html",
+    "main.b1de9152.css.map": "/GearBot/static/css/main.b1de9152.css.map",
+    "main.ea357aea.js.map": "/GearBot/static/js/main.ea357aea.js.map",
+    "453.2146d86e.chunk.js.map": "/GearBot/static/js/453.2146d86e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1de9152.css",
+    "static/js/main.ea357aea.js"
+  ]
+}
