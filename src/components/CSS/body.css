@@ -1,0 +1,72 @@
+#body{
+    background-image: linear-gradient(to bottom right,black,black,black,black,black,red,red);
+}
+#indexposter{
+  justify-content: center;
+    display: flex;
+    background-image: url("images/carlogos for index page/indexcarposter.png");
+    height: 400px;
+}
+#mercedeslogo{
+  
+}
+#bentleylogo{
+    margin-left: 90px;
+  }
+  #maseratilogo{
+    margin-left: 50px;
+  }
+  #rollsroycelogo{
+    margin-top: 60px;
+    margin-left: 80px;
+  }
+  #porchelogo{
+    margin-top: 70px;
+    margin-left: 70px;
+  }
+  .carslogoindex{
+    margin-top: 80px;
+  }
+  .carslogoindex:hover{
+    transform: scale(1.1);
+  }
+  /*indexposter end*/
+  #carhealthhelp{
+    color: hsla(20, 67%, 49%, 0.699);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    animation: multicolorEffect1 2s infinite; /* Looping animation */
+    margin-left: 50px;
+
+  }
+  @keyframes multicolorEffect1 {
+    0% { color: white; }
+    50% { color: red; }
+    100% { color: white; }
+}
+
+  @keyframes multicolorEffect2 {
+    0% { color: white; }
+    50% { color: red; }
+    100% { color: white; }
+}
+
+#findcar{
+  margin-top: 70px;
+  margin-right: 90px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 70px;
+  text-align: right;
+  position: relative;
+  animation: multicolorEffect2 2s infinite; /* Looping animation */
+}
+#emicaluclatortext{
+  color: hsla(20, 67%, 49%, 0.699);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    animation: multicolorEffect1 2s infinite; /* Looping animation */
+    margin-left: -20px;
+}
+#emicalculator{
+  margin-left: 70px;
+}

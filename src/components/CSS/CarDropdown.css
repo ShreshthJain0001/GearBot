@@ -1,0 +1,41 @@
+.dropdown-container {
+  margin-left: 1100px;
+  position: absolute;
+  top: 50px; 
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.dropdown-category {
+  margin-bottom: 10px;
+}
+
+.category-title {
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px;
+  background-color: #333;
+  color: white;
+  border-radius: 4px;
+}
+
+.dropdown-brands {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.dropdown-brand {
+  display: block;
+  padding: 4px 0;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown-brand:hover {
+  text-decoration: underline;
+}

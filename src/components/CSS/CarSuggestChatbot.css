@@ -1,0 +1,77 @@
+.chat-box {
+  font-size: 20px;
+  width: 400px;
+  height: 500px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-message {
+  align-self: flex-end;
+  background-color:red;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px 10px 0 10px;
+  margin: 5px 0;
+  max-width: 70%;
+}
+
+.bot-message {
+  align-self: flex-start;
+  background-color:lavender;
+  color: #000;
+  padding: 8px 12px;
+  border-radius: 20px 20px 20px 0px;
+  margin: 5px 0;
+  max-width: 70%;
+}
+
+input[type="text"] {
+  margin-top: 5px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #0084ff;
+  box-shadow: 0 0 5px rgba(0, 132, 255, 0.5);
+}
+
+.chat-box::-webkit-scrollbar {
+  width: 21px; /* Width of the scrollbar */
+}
+
+.chat-box::-webkit-scrollbar-track {
+  background-size: 20px;
+  background-image: url('/src/components/CSS/images/chatbot pics/road.jpg');
+  border-radius: 10px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: url('/src/components/CSS/images/chatbot pics/car-icon.png'); 
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  background-position: center; /* Center the image within the scrollbar */
+  background-size: 60px 60px;
+  animation: scroll-car 2s infinite alternate; /* Car movement animation */
+}
+
+
+/* Animation for the scrollbar thumb */
+@keyframes scroll-car {
+  0% {
+      background-position: top; /* Start at the top of the thumb */
+  }
+  100% {
+      background-position: bottom; /* Move to the bottom of the thumb */
+  }
+}

@@ -1,0 +1,14 @@
+.scroll-tire {
+    position: fixed;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('/src/components/CSS/images/tire-image.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 9999; /* Higher than navbar */
+    transition: transform 0.1s ease-out;
+    transform-origin: center;
+  }
+  
